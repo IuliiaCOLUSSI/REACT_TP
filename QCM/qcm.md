@@ -7,7 +7,7 @@ Choisissez une seule et bonne réponse ci-dessous :
 
 *Réponses* :
 * [ ] C'est un langage qui permet de générer des objets avec une notation HTML.
-* [ ] C'est un langage qui permet de typer des variables et objets JS.
+* [*] C'est un langage qui permet de typer des variables et objets JS.
 * [ ] C'est un langage qui permet de générer des classes avec une notation HTML.
 * [ ] C'est un langage qui permet de générer des objets avec une notation XML.
 
@@ -17,7 +17,7 @@ Définissez simplement ce que représente le DOM virtuel en choisissant une seul
 
 *Réponses* :
 * [ ] C'est une représentation du DOM réel sous d'une arborescence XML.
-* [ ] C'est une représentation du DOM réel sous forme d'objets simples JS.
+* [*] C'est une représentation du DOM réel sous forme d'objets simples JS.
 * [ ] C'est une représentation du DOM réel sous forme de fonctions écrites en C.
 * [ ] C'est une représentation du DOM réel sous de tableau JS et XML.
 
@@ -42,7 +42,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous
 *Réponses* :
 * [ ] Oui car la propriété est passée par décomposition.
 * [ ] Oui car les propriétés sont mutables.
-* [ ] Non car les propriétés sont en lecture seule.
+* [*] Non car les propriétés sont en lecture seule.
 
 ## Question 4
 
@@ -72,7 +72,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous
 *Réponses* :
 * [ ] Il est valide et affichera trois paragraphes dans le DOM.
 * [ ] Il est valide et affichera un paragraphe dans le DOM.
-* [ ] Il n'est pas valide le code produira une erreure.
+* [*] Il n'est pas valide le code produira une erreure.
 
 ## Question 5
 
@@ -100,8 +100,8 @@ export default App;
 Répondez en choisissant une seule et bonne réponse ci-dessous
 
 *Réponses* :
-* [ ] Il affiche une horloge hh/mm/ss du temps qui passe.
-* [ ] Il affiche la date au format hh/mm/ss une seule fois.
+* [*] Il affiche une horloge hh/mm/ss du temps qui passe.
+* [] Il affiche la date au format hh/mm/ss une seule fois.
 * [ ] Il affiche la date au format hh/mm/ss deux seule fois.
 
 ## Question 6
@@ -132,7 +132,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous
 *Réponses* :
 * [ ] Il affiche une horloge hh/mm/ss du temps qui passe.
 * [ ] Il affiche une date au format hh/mm/ss une seule fois.
-* [ ] Il affiche une date au format hh/mm/ss deux seule fois.
+* [*] Il affiche une date au format hh/mm/ss deux seule fois.
 
 ## Question 7
 
@@ -175,7 +175,7 @@ component  0
 component  1
 useEffect  1
 ```
-* [ ] Dans l'ordre suivant :
+* [*] Dans l'ordre suivant :
 ```text
 component  0
 useEffect  0
@@ -230,7 +230,7 @@ export default App;
 Répondez en choisissant une seule et bonne réponse ci-dessous
 
 *Réponses* :
-* [ ] Dans l'ordre suivant :
+* [*] Dans l'ordre suivant :
 ```text
 component  0
 useEffect  0
@@ -283,7 +283,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous
 *Réponses* :
 * [ ] Il affiche 0 puis 1 au bout d'une seconde dans le DOM.
 * [ ] Il affiche 1 au bout d'une seconde dans le DOM
-* [ ] Il affiche 0 puis 1, 2, ... avec un interval 1s dans le DOM.
+* [*] Il affiche 0 puis 1, 2, ... avec un interval 1s dans le DOM.
 * [ ] Il affiche 0 dans le DOM
 
 ## Question 10
@@ -306,7 +306,7 @@ export default App;
 Répondez en choisissant une seule et bonne réponse ci-dessous
 
 *Réponses* :
-* [ ] Oui car la propriété est passée par décomposition.
+* [*] Oui car la propriété est passée par décomposition.
 * [ ] Oui car les propriétés sont mutables.
 * [ ] Non car les propriétés sont en lecture seule.
 
@@ -343,7 +343,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous
 
 *Réponses* :
 * [ ] Oui 
-* [ ] Non
+* [*] Non
 
 ## Question 12
 
@@ -386,7 +386,7 @@ export default App;
 Répondez en choisissant une seule et bonne réponse ci-dessous
 
 *Réponses* :
-* [ ] Ce code n'est pas valide, il affichera une erreur React. 
+* [*] Ce code n'est pas valide, il affichera une erreur React. 
 * [ ] Ce code affichera dans le DOM 0 uniquement.
 * [ ] Ce code affichera dans le DOM 11 uniquement.
 * [ ] Ce code affichera dans le DOM 0 puis au bout 1s 11.
@@ -425,7 +425,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous
 ```js
 const Wrapper = () => <></>;
 ```
-* [ ] Le Wrapper doit s'écrire :
+* [*] Le Wrapper doit s'écrire :
 ```js
 const Wrapper = ({children}) => <div className="main">children</div>;
 ```
@@ -443,7 +443,7 @@ Choisissez une seule et bonne réponse ci-dessous :
 *Réponses* :
 * [ ] Redux permet de mettre en place la navigation entre composant.
 * [ ] Redux permet de gérer l'asynchrone dans React.
-* [ ] Redux permet de gérer un store global dans React.
+* [*] Redux permet de gérer un store global dans React.
 * [ ] Redux permet de faire remonter les erreurs React dans des logs.
 
 ## Question 15
@@ -483,7 +483,7 @@ const reducer = (state = stateInit, action = {}) => {
 
 *Réponses* :
 * [ ] Lorsqu'on met à jour le state, il faut changer la source de vérité.
-* [ ] Lorsqu'on met à jour le state, il ne faut paschanger la source de vérité.
+* [*] Lorsqu'on met à jour le state, il ne faut paschanger la source de vérité.
 * [ ] Ce code n'est pas valide, il n'y a pas de state dans Redux.
 
 ## Question 16
@@ -493,7 +493,7 @@ A quoi sert le module thunk-redux ?
 Choisissez une seule et bonne réponse ci-dessous :
 
 *Réponses* :
-* [ ] Il sert à gérer des actions asynchrone dans Redux
+* [*] Il sert à gérer des actions asynchrone dans Redux
 * [ ] Il sert à gérer les logs d'erreur dans Redux.
 * [ ] Il sert à séparer le store en plusiers sous-parties.
 * [ ] Il sert à créer un système de cache pour le store.
@@ -506,7 +506,7 @@ Choisissez une seule et bonne réponse ci-dessous :
 
 *Réponses* :
 * [ ] Il est un sucre syntaxique, il ne sert à rien.
-* [ ] Il permet de faire du Single Responsability.
+* [*] Il permet de faire du Single Responsability.
 * [ ] Il permet de faire des bundles exportables.
 
 ## Question 18
@@ -517,7 +517,7 @@ Choisissez une seule et bonne réponse ci-dessous :
 
 *Réponses* :
 * [ ] Il se situe entre le dispatch et le reducer.
-* [ ] Il se situe entre le reducer et les actions.
+* [*] Il se situe entre le reducer et les actions.
 * [ ] Il se situe entre les actions et le store.
 * [ ] Il se situe entre le store et le reducer.
 
@@ -536,7 +536,7 @@ const customMiddleware = next => action => store => {
 }
 ```
 
-* [ ] Il s'écrit 
+* [*] Il s'écrit 
 ```js
 const customMiddleware = store => next => action => {
   // ...
